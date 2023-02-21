@@ -6,7 +6,7 @@
  * Return: sum of a and b
  */
 /*
-*Declare function called add that takes two integers as arguments and returns an integer.
+* Declare function called
 * Declare a variable called c.
 * Add a and b and store the result in c.
 * Return the value of c.
