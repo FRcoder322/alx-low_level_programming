@@ -9,7 +9,7 @@
 * Declare an integer variable i and initialize it to 0.
 * Declare a for loop that will run 10 times.
 * Declare a character variable c and initialize it to ‘a’.
-* Declare a for loop that will run until c is greater than ‘z’.
+* Declare for loop that will run until c is greater than ‘z’.
 * Print the character c.
 * Increment c by 1.
 * Print a new line.
