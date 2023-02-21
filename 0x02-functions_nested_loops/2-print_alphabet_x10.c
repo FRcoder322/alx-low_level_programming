@@ -5,16 +5,16 @@
  * Return: void
  */
 /*
-1. Declare a function called print_alphabet_x10 .
-2. Declare an integer variable i and initialize it to 0.
-3. Declare a for loop that will run 10 times.
-4. Declare a character variable c and initialize it to ‘a’.
-5. Declare a for loop that will run until c is greater than ‘z’.
-6. Print the character c.
-7. Increment c by 1.
-8. Print a new line.
-9. Increment i by 1.
-10. End the function.
+*  Declare a function called print_alphabet_x10 .
+* Declare an integer variable i and initialize it to 0.
+* Declare a for loop that will run 10 times.
+* Declare a character variable c and initialize it to ‘a’.
+* Declare a for loop that will run until c is greater than ‘z’.
+* Print the character c.
+* Increment c by 1.
+* Print a new line.
+* Increment i by 1.
+* End the function.
 */
 void print_alphabet_x10(void)
 {
