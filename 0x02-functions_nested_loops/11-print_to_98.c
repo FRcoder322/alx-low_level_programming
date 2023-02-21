@@ -6,8 +6,8 @@
  * @n: print from this number
  */
 /*
- *If number is less than 98, it will print all the numbers from the given number to 98.
- *If number is greater than 98 it will print all the numbers from the given number to 98.
+ *If number is less than 98, print all numbers less that 98.
+ *If number is greater than 98 ,print all the numbers to 98.
  *If the number is equal to 98, it will print 98.
 */
 void print_to_98(int n)
