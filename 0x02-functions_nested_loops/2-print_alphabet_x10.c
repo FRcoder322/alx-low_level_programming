@@ -5,7 +5,7 @@
  * Return: void
  */
 /*
-*  Declare a function called print_alphabet_x10 .
+* Declare a function called print_alphabet_x10 .
 * Declare an integer variable i and initialize it to 0.
 * Declare a for loop that will run 10 times.
 * Declare a character variable c and initialize it to ‘a’.
