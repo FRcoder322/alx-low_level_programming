@@ -9,7 +9,7 @@
 * Multiply the row and column to get the product.
 * If the column is 0, print the product.
 * If the product is less than 10 and the column is not 0, print a comma, two spaces, and the product.
-* If the product is greater than or equal to 10, print a comma, a space, the tens digit of the product, and the ones digit of the product.
+* If the product is greater than or equal to 10, print a comma,a space, the tens digit of the product, and the ones digit of the product.
 * Print a new line after each row.
 */
 void times_table(void)
