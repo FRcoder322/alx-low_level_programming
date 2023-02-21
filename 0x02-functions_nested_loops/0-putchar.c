@@ -1,14 +1,14 @@
-#include <stdio.h>
 #include "main.h"
-	int main() {
-    putchar('_');
-    putchar('p');
-    putchar('u');
-    putchar('t');
-    putchar('c');
-    putchar('h');
-    putchar('a');
-    putchar('r');
-    putchar('\n');
-    return 0;
+int main(void)
+{
+	char sh[8] = "_putchar";
+	int x;
+
+	for (x = 0; x < 8; x++)
+	{
+		_putchar(sh[x]);
+	}
+		_putchar('\n');
+
+	return (0);
 }
