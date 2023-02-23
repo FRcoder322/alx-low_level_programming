@@ -10,7 +10,7 @@
 * It’s defining a function called mul that takes two integers as arguments and returns an integer.
 * It’s returning the product of the two arguments.
 */
-int mul(int x, int y)
+int mul(int a, int b)
 {
-return (x * y);
+return (a * b);
 }
