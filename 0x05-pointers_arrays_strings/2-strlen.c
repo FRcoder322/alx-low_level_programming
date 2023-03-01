@@ -3,6 +3,7 @@
  * _strlen - returns the length of a string
  * @s: string
  * Return: length
+ * New Comments
  */
 int _strlen(char *s)
 {
