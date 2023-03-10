@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/kotlin/c pointers/alx-low_level_programming/0x09-static_libraries",
+      "program": "/Users/kotlin/c pointers/alx-low_level_programming/0x09-static_libraries/build/Debug/outDebug"
+    }
+  ]
+}
