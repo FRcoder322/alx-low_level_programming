@@ -13,8 +13,8 @@
 * The first for loop iterates through the arguments.
 * The second for loop iterates through each character of the argument.
 * If the character is not a digit, the program prints “Error” and returns 1.
-*If the character is a digit, the program adds the number to the sum.
-*The program prints the sum and returns 0.
+* If the character is a digit, the program adds the number to the sum.
+* The program prints the sum and returns 0.
 */
 int main(int argc, char *argv[])
 {
