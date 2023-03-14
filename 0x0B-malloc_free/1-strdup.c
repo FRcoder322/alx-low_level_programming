@@ -15,7 +15,7 @@
  *   Next, we loop through the string to find the length of the string.
  *   We allocate memory for the copy of the string.
  *   We check if the memory was allocated.  If it wasn’t, we return NULL.
- *   We loop through the string again, this time copying the string into the new memory.
+ *   We loop through the string again,.
  *   We add a null terminator to the end of the string.
  *   We return the copy of the string.
  *
