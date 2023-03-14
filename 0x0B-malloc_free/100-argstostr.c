@@ -1,8 +1,8 @@
 #include "main.h"
 /**
 * argstostr - a function that concatenates all the arguments of your program
-*@ac: count of args passed to the function
-*@av:array of arguments
+*ac: count of args passed to the function
+*av:array of arguments
 *
 *Return: pointer to the new string
 */
