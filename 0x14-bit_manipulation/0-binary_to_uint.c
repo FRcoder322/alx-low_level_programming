@@ -1,43 +1,26 @@
 #include "main.h"
- /**
- * binary_to_uint  it converts a binary to an unsigned int.
- * @b it is the binary number as a string
+
+/**
+ * binary_to_uint - converts a binary number to unsigned int
+ * @b: string containing the binary number
+ *
+ * Return: the converted number
  */
 
 unsigned int binary_to_uint(const char *b)
 {
-unsigned int float = 0;
-int str_len = 0, base = 1;
+	int k;
+	unsigned int dec_val = 0;
 
-if (!check_valid_string(b))
-return (0);
+	if (!b)
+		return (0);
 
-while (b[str_len] != '\0')
-str_len++;
+	for (k = 0; b[k]; k++)
+	{
+		if (b[k] < '0' || b[k] > '1')
+			return (0);
+		dec_val = 2 * dec_val + (b[i] - '0');
+	}
 
-while (str_len)
-{
-float += ((b[str_len - 1] - '0') * base);
-base *= 2;
-str_len--;
-}
-return (float);
-}
-
-/**
- * check_valid_string   checks if a string has only 0's and 1's.
- * @b is the  string to be checked
- */
-int check_valid_string(const char *b)
-{
-if (b == NULL)
-return (0);
-
-while (*b)
-{
-  if (*b != '1' && *b != '0')
-  return (0);
-  b++;
-}
- return (1);
+	return (dec_val);
 }
